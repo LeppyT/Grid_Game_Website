@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+</head>
+<body>
+    <header class="header_grid">
+        <button id="restart" onclick="restart()"><img class="icon" src="restart.png"></button>
+        <h1 class="header_title">Grid Game</h1>
+        <div class="header_power"><button id="Zap" onclick="zap()"><img class="icon" src="zap.png"></button><p id="zap_amount" class="number_text">0</p></div>
+        <div class="header_power"><button id="Find" onclick="find()"><img class="icon" src="find.png"></button><p id="find_amount" class="number_text">0</p></div>
+    </header>
+    <main>
+        <div id="game_grid">
+        </div>
+    </main>
+    <footer>
+        <div class="footer_score"><span class="footer_text">Score: </span><span id="score">0</span></div>
+        <div class="footer_score"><span class="footer_text">Highscore: </span><span id="highscore">0</span></div>
+        <div class="links"><a href="https://www.flaticon.com/free-icons/restart" title="restart icons">Restart icons created by B Illustrations - Flaticon</a>
+        <a href="https://www.flaticon.com/free-icons/search" title="search icons">Search icons created by Royyan Wijaya - Flaticon</a>
+        <a href="https://www.flaticon.com/free-icons/thunder" title="thunder icons">Thunder icons created by Freepik - Flaticon</a>
+        </div>
+    </footer>
+    <script src='main.js'></script>
+</body>
+</html>
